@@ -6,7 +6,7 @@ This is the completed code for the Vercel guide "Add Auth to a Next.js Site with
 
 1. Install dependencies.
 
-```
+```shell
 npm install
 # or
 yarn install
@@ -14,23 +14,21 @@ yarn install
 
 2. Change `.env.local.example` to `.env.local` and add your Magic API keys.
 
-```
+```shell
 mv .env.local.example .env.local
 ```
 
-Then
-
-```
-# .env.local
+```javascript
+// .env.local
 
 NEXT_PUBLIC_MAGIC_PUBLISHABLE_KEY="YOUR MAGIC PUBLISHABLE KEY"
 MAGIC_SECRET_KEY=sk_live_"YOUR MAGIC SECRET KEY"
 
 ```
 
-3. Run the development server.
+1. Run the development server.
 
-```
+```shell
 npm run dev
 # or
 yarn dev
