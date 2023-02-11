@@ -1,4 +1,4 @@
-# Magic Auth with Next.js
+# Magic Auth with Next.js - Vercel Guide
 
 This is the completed code for the Vercel guide "Add Auth to a Next.js Site with Magic.link" <-- link to be added.
 
@@ -12,7 +12,7 @@ npm install
 yarn install
 ```
 
-2. Change `.env.local.example` to `.env.local` and add your Magic API keys.
+2. Rename `.env.local.example` to `.env.local` and add your Magic API keys.
 
 ```shell
 mv .env.local.example .env.local
@@ -21,9 +21,8 @@ mv .env.local.example .env.local
 ```javascript
 // .env.local
 
-NEXT_PUBLIC_MAGIC_PUBLISHABLE_KEY="YOUR MAGIC PUBLISHABLE KEY"
-MAGIC_SECRET_KEY="YOUR MAGIC SECRET KEY"
-
+NEXT_PUBLIC_MAGIC_PUBLISHABLE_KEY = "YOUR MAGIC PUBLISHABLE KEY"
+MAGIC_SECRET_KEY = "YOUR MAGIC SECRET KEY"
 ```
 
 1. Run the development server.
