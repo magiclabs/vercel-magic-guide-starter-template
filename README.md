@@ -1,6 +1,6 @@
 # Magic Auth with Next.js - Starter Template
 
-This is the starter template for the Vercel guide "Add Auth to a Next.js Site with Magic.link" <-- link to be added. For reference, you can find the completed code [here](https://github.com/magiclabs/vercel-magic-guide).
+This is the starter template for the Vercel guide [How to Implement Magic Auth in a Next.js App](https://magic.link/posts/magic-auth-next). For reference, you can find the completed code [here](https://github.com/magiclabs/vercel-magic-guide).
 
 ## Get Started
 
